@@ -1,37 +1,34 @@
 {
-    "name":                 "interlocutor",
-    "version":              "1.0.7",
-    "description":
-
-      "Invoke Sencha Connect middleware without an HTTP server.",
-
-    "keywords":
-    [
-                            "bluey", "http", "connect"
-    ],
-    "author":               "Alan Gutierrez <alan@prettyrobots.com>",
-    "homepage":             "https://github.com/bigeasy/interlocutor",
-    "bugs":                 "https://github.com/bigeasy/interlocutor/issues",
-    "license":              "MIT",
-    "repository":
-    {
-                            "type": "git",
-                            "url": "bigeasy/interlocutor"
-    },
-    "dependencies":
-    {
-                            "comeuppance":                  "0.0.1",
-                            "eject":                        "0.2.3",
-                            "extant":                       "^2.0.0-alpha.0",
-                            "nop":                          "1.0.0"
-    },
-    "devDependencies":
-    {
-                            "proof":                        "^9.0.2"
-    },
-    "main":                 "interlocutor",
-    "scripts":
-    {
-                            "test": "proof test/*.t.js"
-    }
+  "name": "interlocutor",
+  "version": "1.0.7",
+  "description": "Invoke Sencha Connect middleware without an HTTP server.",
+  "prettier": "@alloc/prettier-config",
+  "keywords": [
+    "bluey",
+    "http",
+    "connect"
+  ],
+  "author": "Alan Gutierrez <alan@prettyrobots.com>",
+  "homepage": "https://github.com/bigeasy/interlocutor",
+  "bugs": "https://github.com/bigeasy/interlocutor/issues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "bigeasy/interlocutor"
+  },
+  "dependencies": {
+    "comeuppance": "0.0.1",
+    "eject": "0.2.3",
+    "extant": "^2.0.0-alpha.0",
+    "nop": "1.0.0"
+  },
+  "devDependencies": {
+    "@alloc/prettier-config": "^1.0.0",
+    "prettier": "^2.3.2",
+    "proof": "^9.0.2"
+  },
+  "main": "interlocutor",
+  "scripts": {
+    "test": "proof test/*.t.js"
+  }
 }

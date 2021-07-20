@@ -1,0 +1,70 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@alloc/prettier-config': ^1.0.0
+  comeuppance: 0.0.1
+  eject: 0.2.3
+  extant: ^2.0.0-alpha.0
+  nop: 1.0.0
+  prettier: ^2.3.2
+  proof: ^9.0.2
+
+dependencies:
+  comeuppance: 0.0.1
+  eject: 0.2.3
+  extant: 2.0.0-alpha.0
+  nop: 1.0.0
+
+devDependencies:
+  '@alloc/prettier-config': 1.0.0
+  prettier: 2.3.2
+  proof: 9.0.3
+
+packages:
+
+  /@alloc/prettier-config/1.0.0:
+    resolution: {integrity: sha512-xm50V1qxSdTh1O1fKA+gqcU605YSnxfq6HwtYSFU3fRsKMFnUSuSOxqSAPI7y2sRxqPed2EIuGmNn107LVQM6g==}
+    dev: true
+
+  /comeuppance/0.0.1:
+    resolution: {integrity: sha512-BJAlc8Ju8MCkvcFmrpuhhWE6NcHDxJxVnhp8+bjP591Gn5wjCGU9gNNzTcOF1k8uR8nSP5NGZcUnVVjQn0Wf2w==}
+    dev: false
+
+  /deep-diff/1.0.2:
+    resolution: {integrity: sha512-aWS3UIVH+NPGCD1kki+DCU9Dua032iSsO43LqQpcs4R3+dVv7tX0qBGjiVHJHjplsoUM2XRO/KB92glqc68awg==}
+    dev: true
+
+  /departure/2.0.3:
+    resolution: {integrity: sha512-DtU3VkoNWJVHhCDrHxmm2rlI4QccUa+WUtTZTHAL9u9+sI+tIvM/AzQa/zN4RMvAFv37Uk10q8hSHuaMUFxl1g==}
+    dependencies:
+      deep-diff: 1.0.2
+      fast-deep-equal: 3.1.3
+    dev: true
+
+  /eject/0.2.3:
+    resolution: {integrity: sha512-VSbuMoNPjZ4doNvDhM7mebGUmbffou28ioQdng9HDv+1Iw6s0EOODFAB0bwZculjfbGQFRh8CyyRfeDULqhcQw==}
+    dev: false
+
+  /extant/2.0.0-alpha.0:
+    resolution: {integrity: sha512-yTjyLpqvVqu8O8ytoJChMLTxE9brUg5NvOpXwsubJYmy1ioOdbVUT1IJltzT1oQGZin9X91ZecDisbLDAEccDA==}
+    dev: false
+
+  /fast-deep-equal/3.1.3:
+    resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
+    dev: true
+
+  /nop/1.0.0:
+    resolution: {integrity: sha1-y0bPfgFXSqY5CFgUn2aJev5Tyco=}
+    dev: false
+
+  /prettier/2.3.2:
+    resolution: {integrity: sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
+  /proof/9.0.3:
+    resolution: {integrity: sha512-lhlZ2KeoqpbsMEFEWbmQJeAg4dgIE98/hATFN4/PHwTVNTxZDbXSTOsNm5epYj7VlIt78JOJM9pMNHrL3Q7RAg==}
+    dependencies:
+      departure: 2.0.3
+    dev: true
