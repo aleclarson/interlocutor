@@ -30,5 +30,9 @@
   "main": "interlocutor",
   "scripts": {
     "test": "proof test/*.t.js"
-  }
+  },
+  "files": [
+    "*.js",
+    "*.d.ts"
+  ]
 }
