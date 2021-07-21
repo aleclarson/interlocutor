@@ -1,6 +1,6 @@
 {
   "name": "@alloc/interlocutor",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Invoke Sencha Connect middleware without an HTTP server.",
   "prettier": "@alloc/prettier-config",
   "keywords": [
